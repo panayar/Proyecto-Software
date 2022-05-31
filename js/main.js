@@ -6,9 +6,9 @@ $(function(){
         enableAllSteps: true,
         transitionEffectSpeed: 500,
         labels: {
-            finish: "Submit",
-            next: "Forward",
-            previous: "Backward"
+            finish: "Enviar",
+            next: "Siguiente",
+            previous: "Anterior"
         }
     });
     $('.wizard > .steps li a').click(function(){
@@ -22,8 +22,7 @@ $(function(){
     })
     $('.backward').click(function(){
         $("#wizard").steps('previous');
-        alert("Holaaaa")
-
+    
     })
     // Select Dropdown
     $('html').click(function() {
