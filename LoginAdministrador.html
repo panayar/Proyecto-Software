@@ -5,17 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="icon" href="images/main_icon.png">
-
-    <!-- STYLE CSS -->
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/main_icon.png">
+    <title>Login Administrador</title>
 </head>
 
-<body style="background-color: #F8F9FA;" class="bg-login">
+<body class="bg-login">
 
     <!-- NAVBAR -->
 
@@ -47,36 +45,40 @@
         </nav>
     </div>
 
+    <!-- login-form -->
+
+    <div class="login-container">
+        <p>Login Administrador</p>
+        <div class="mb-3 row">
+            <div class="col-12">
+                <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <div class="col-12">
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+        </div>
+
+        <div class="mb-3 row">
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary btn-block w-100">Login</button>
+            </div>
+        </div>
 
 
-    <div class="form-conatiner">
-        <form action="" id="wizard">
-            <!-- SECTION 1 -->
-            <h2></h2>
-            <section>
-                <div class="inner">
-                    <div class="form-login form-lgn">
 
-                        <p>Ingresar como </p>
-
-        
-
-                        <div class="form-row w-100 center">
-                           <a href="/LoginCapitan.html" class="btn-login">Administrador</a>
-                        </div>
-                        <div class="form-row w-100">
-                            <a href="/LoginCapitan.html" class="btn-login">Capitán</a>
-                        </div>
-                        <div class="form-row w-100">
-                            <a href="/LoginCapitan.html" class="btn-login">Miembro</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-        </form>
     </div>
+
+
+    <!-- BOOSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+
 
 </body>
 
